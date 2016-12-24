@@ -24,13 +24,15 @@ Create a project
 
 ```sh
 $ mvn archetype:generate \
-     -DarchetypeGroupId=com.github.spring-boot-archetypes \
+     -DarchetypeCatalog=local \
+     -DarchetypeGroupId=com.xiaojukeji.base \
      -DarchetypeArtifactId=spring-boot-quickstart \
      -DarchetypeVersion=1.0.0 \
-     -DgroupId=com.company \
-     -DartifactId=webapp \
-     -Dversion=1.0.0-SNAPSHOT \
+     -DgroupId=your.project.groupId \
+     -DartifactId=your-project-name \
+     -Dversion=0.0.1-SNAPSHOT \
      -DinteractiveMode=false
+
 ```
 
 Run the project
