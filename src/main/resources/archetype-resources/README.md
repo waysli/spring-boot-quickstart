@@ -11,7 +11,6 @@ ${symbol_pound}${symbol_pound} Prerequisites
 
 - Java 1.8+
 - Maven 3.3+
-- PostgreSQL 9.0+
 - Node.js, Grunt and Bower
 
 ${symbol_pound}${symbol_pound} Installation
