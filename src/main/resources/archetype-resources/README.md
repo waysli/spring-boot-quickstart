@@ -12,6 +12,12 @@ ${symbol_pound}${symbol_pound} Prerequisites
 - Java 1.8+
 - Maven 3.3+
 - Node.js, Grunt and Bower
+- spring boot 1.4.0
+- Mybatis 1.1.1
+- Swagger 2.2.2
+- json-lib 2.4
+- Mysql
+- JUnit
 
 ${symbol_pound}${symbol_pound} Installation
 

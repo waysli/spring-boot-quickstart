@@ -71,7 +71,7 @@
             <version>4.5</version><!--$NO-MVN-MAN-VER$ -->
         </dependency>
 
-        <!--Swagger support -->
+        <!-- Swagger support -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger2</artifactId>
