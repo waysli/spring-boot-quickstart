@@ -6,7 +6,7 @@ Spring Boot Quickstart Maven Archetype
 
 Summary
 -------
-The project is a Maven archetype for Spring Boot web application.
+The project is a Maven archetype for Spring Boot application.
 
 Installation
 ------------
@@ -32,10 +32,12 @@ $ mvn archetype:generate \
      -DarchetypeGroupId=com.xiaojukeji.base \
      -DarchetypeArtifactId=spring-boot-quickstart \
      -DarchetypeVersion=1.0.0 \
-     -DgroupId=your.project.groupId \
-     -DartifactId=your-project-name \
+     -DinteractiveMode=false \
      -Dversion=0.0.1-SNAPSHOT \
-     -DinteractiveMode=false
+     -DgroupId=your.project.groupId \
+     -DartifactId=your.project.name
+
+
 ```
 
 with CommandPrompt (Windows) :
@@ -46,10 +48,10 @@ with CommandPrompt (Windows) :
      -DarchetypeGroupId=com.xiaojukeji.base^
      -DarchetypeArtifactId=spring-boot-quickstart^
      -DarchetypeVersion=1.0.0^
-     -DgroupId=your.project.groupId^
-     -DartifactId=your-project-name^
+     -DinteractiveMode=false^
      -Dversion=0.0.1-SNAPSHOT^
-     -DinteractiveMode=false
+     -DgroupId=your.project.groupId^
+     -DartifactId=your.project.name
 ```
 
 Note: No additional services are required in order to start the application.
