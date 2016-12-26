@@ -1,59 +1,40 @@
-# Mac
-._*
-.DS_Store
-.Spotlight-V100
-.Trashes
+#.gitignore for java
+*.class
 
-# Windows
-Thumbs.db
-Desktop.ini
-
-# Eclipse
-.buildpath
-.classpath
-*.launch
-.loadpath
-.metadata
-.project
-*.pydevproject
-.settings/
-.springBeans
-
-# Intellij
-.idea/
-*.iml
-*.iws
-*.ipr
-*.ids
-*.orig
-
-# Node
-/**/node/
-/**/node_modules/
-
-# SASS
-/**/.sass-cache/
-
-# Bower
-/**/vendor/
-
-# Maven
-log/
-target/
-
-# Package Files
+# Package Files #
 *.jar
 *.war
 *.ear
+**/target/
 
-# Java
-*.class
-
-# Directories
-/build/
-/bin/
-/out/
-/deploy/
-
-# Logs
+# logs
+/stacktrace.log
+/test/reports
+/logs
 *.log
+*.log.*
+
+## .gitignore for intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+
+## .gitignore for eclipse
+*.pydevproject
+.project
+.metadata
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+## MAC OS custom attributes of its containing folder
+.DS_*
+/target/
