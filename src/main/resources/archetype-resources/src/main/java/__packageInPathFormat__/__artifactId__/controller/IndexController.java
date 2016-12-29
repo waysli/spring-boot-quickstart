@@ -1,7 +1,12 @@
 /**
  * Spring Framework Configuration Files
  */
-package ${package}.${artifactId}.controller;
+package $
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import java.io.IOException;{package}.${artifactId}.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,9 +29,8 @@ public class IndexController {
         response.sendRedirect("/swagger-ui.html");
     }
 
-
-    @RequestMapping(value = "/status", method = RequestMethod.GET)
-    public Object status() throws IOException {
+    @RequestMapping(value = "/info", method = RequestMethod.GET)
+    public Object info() throws IOException {
         return "ok!";
     }
 }
