@@ -31,6 +31,6 @@ public class IndexController {
 
     @RequestMapping(value = "/info", method = RequestMethod.GET)
     public Object info() throws IOException {
-        return "App Name: " + ${package}.${artifactId};
+        return "App Name: " + "${package}.${artifactId}";
     }
 }
