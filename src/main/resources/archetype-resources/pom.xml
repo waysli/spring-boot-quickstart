@@ -26,7 +26,7 @@
     </prerequisites>
 
     <properties>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -96,6 +96,13 @@
         <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
+        </dependency>
+
+        <!-- common util Support -->
+        <dependency>
+            <groupId>com.xiaojukeji.base</groupId>
+            <artifactId>common-util</artifactId>
+            <version>1.3.4</version>
         </dependency>
 
         <!-- Json Support -->
