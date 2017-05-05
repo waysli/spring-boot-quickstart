@@ -27,6 +27,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <common.util.version>1.3.9-SNAPSHOT</common.util.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -98,11 +99,17 @@
             <artifactId>commons-collections</artifactId>
         </dependency>
 
-        <!-- common util Support -->
+        <!-- common util -->
         <dependency>
             <groupId>com.xiaojukeji.base</groupId>
             <artifactId>common-util</artifactId>
-            <version>1.3.4</version>
+            <version>${common.util.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>servlet-api</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <!-- Json Support -->

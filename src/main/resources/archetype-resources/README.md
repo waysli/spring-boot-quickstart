@@ -9,7 +9,7 @@ Describe your project here.
 
 ${symbol_pound}${symbol_pound} Prerequisites
 
-- Java 1.7+
+- Java 1.8+
 - Maven 3.3+
 - Node.js, Grunt and Bower
 - spring boot 1.4.0
