@@ -27,7 +27,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <common.util.version>1.3.9-SNAPSHOT</common.util.version>
+        <common.util.version>1.4.0-SNAPSHOT</common.util.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
