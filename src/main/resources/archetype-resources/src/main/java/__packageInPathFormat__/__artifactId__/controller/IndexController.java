@@ -16,7 +16,6 @@ import java.util.List;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
-import com.waysli.tools.common.util.RestUtil;
 import io.swagger.annotations.ApiOperation;
 
 /**
@@ -27,8 +26,6 @@ import io.swagger.annotations.ApiOperation;
 @RestController
 @RequestMapping("/")
 public class IndexController {
-    @Autowired
-    RestUtil restOpt;
     @Autowired
     private EurekaClient discoveryClient;
     @Value("${eureka.instance.instance-id}")
