@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
     <archetypes>
         <archetype>
-            <groupId>com.xiaojukeji.base</groupId>
+            <groupId>com.waysli.tools</groupId>
             <artifactId>spring-boot-quickstart</artifactId>
             <version>1.0.0</version>
             <repository></repository>

@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Swagger配置类, swagger是一个Rest API的可视化调试工具
- * @author wangyongsheng
+ * @author waysli
  * @date 16/10/9 下午5:06
  */
 @Configuration
@@ -37,7 +37,7 @@ public class SwaggerConfig
                 "Rest API的可视化调试入口",
                 "API debug",
                 "Terms of service",
-                "wangyongsheng@didichuxing.com",
+                "58322379@qq.com",
                 "Licence Type: 内部开源",
                 "License URL: none");
         return apiInfo;

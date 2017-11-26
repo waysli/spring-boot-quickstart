@@ -106,7 +106,7 @@
 
         <!-- common util -->
         <dependency>
-            <groupId>com.xiaojukeji.base</groupId>
+            <groupId>com.waysli.tools</groupId>
             <artifactId>common-util</artifactId>
             <version>${common.util.version}</version>
             <exclusions>

@@ -1,8 +1,8 @@
 Spring Boot Quickstart Maven Archetype
 =========================================
 
-[![Build Status](https://travis-ci.org/suzel/spring-boot-quickstart-archetype.svg?branch=master)](https://git.xiaojukeji.com/Base/spring-boot-quickstart)
-[![License Status](https://img.shields.io/badge/license-MIT-blue.svg)](https://git.xiaojukeji.com/Base/spring-boot-quickstart/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/suzel/spring-boot-quickstart-archetype.svg?branch=master)](https://git.waysli.com/Base/spring-boot-quickstart)
+[![License Status](https://img.shields.io/badge/license-MIT-blue.svg)](https://git.waysli.com/Base/spring-boot-quickstart/blob/master/LICENSE)
 
 Summary
 -------
@@ -14,7 +14,7 @@ Installation
 To install the archetype in your local repository execute following commands:
 
 ```sh
-$ git clone git@git.xiaojukeji.com:Base/spring-boot-quickstart.git
+$ git clone git@git.waysli.com:Base/spring-boot-quickstart.git
 $ cd spring-boot-quickstart
 $ mvn clean install
 ```
@@ -29,7 +29,7 @@ with Bash :
 ```sh
 $ mvn archetype:generate \
      -DarchetypeCatalog=local \
-     -DarchetypeGroupId=com.xiaojukeji.base \
+     -DarchetypeGroupId=com.waysli.tools \
      -DarchetypeArtifactId=spring-boot-quickstart \
      -DarchetypeVersion=1.0.0 \
      -DinteractiveMode=false \
@@ -45,7 +45,7 @@ with CommandPrompt (Windows) :
 ```sh
 > mvn archetype:generate^
      -DarchetypeCatalog=local^
-     -DarchetypeGroupId=com.xiaojukeji.base^
+     -DarchetypeGroupId=com.waysli.tools^
      -DarchetypeArtifactId=spring-boot-quickstart^
      -DarchetypeVersion=1.0.0^
      -DinteractiveMode=false^

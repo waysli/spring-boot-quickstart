@@ -16,12 +16,12 @@ import java.util.List;
 
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
-import com.xiaojukeji.base.common.util.RestUtil;
+import com.waysli.tools.common.util.RestUtil;
 import io.swagger.annotations.ApiOperation;
 
 /**
  * 服务首页
- * @author wangyongsheng
+ * @author waysli
  * @date 16/10/9 下午3:31
  */
 @RestController
